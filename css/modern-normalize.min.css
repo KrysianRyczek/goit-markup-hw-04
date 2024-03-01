@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/* HEDER LAYOUT PROPERTY */
+
+/* .nav-layout {
+    display: flex;
+    align-items: center;
+}
+.logo-layout {
+
+}
+.nav-list-layout {
+    display: flex;
+    gap: 40px;
+}
+.nav-item-list-layout {
+    padding: 24px 0;
+}
+.address-layout {
+    display: flex;
+    gap: 40px;
+} */
+
+/* ORDER BUTTON SECTION */
+
+/* UTILITIS SECTION */
+
+/* TEAM SECTION */
+
+/*  */
+
+/* FOOTER */
+
+
