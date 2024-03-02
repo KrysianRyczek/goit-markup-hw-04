@@ -179,6 +179,22 @@ img {
 .utilities-item-list {
     width: calc((100% - 72px) / 4)
 }
+.utilitis-icon-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border: 1px solid rgb(142, 143, 153);
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+.utilitis-icon {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 .utilities-list-headings {
     margin-bottom: 8px;
     font-weight: 500;
