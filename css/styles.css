@@ -276,6 +276,9 @@ img {
     border-radius: 50%;
     background-color: #4D5AE5;
 }
+.social-media-icon-fill {
+fill:#f4f4fd;
+}
 /* 4 PRODUCTS SECTION */
 .products{
     width: 1158px;
