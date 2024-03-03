@@ -253,13 +253,15 @@ img {
 }
 .teem-item-paragrafs {
     margin:0;
+    margin-bottom: 8px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.social-medias-box {
-    width: 100%;
+.social-medias-list {
+    padding: 0;
+    list-style-type: none;
     display: flex;
     /* justify-content: space-evenly; */
     gap: 24px;
