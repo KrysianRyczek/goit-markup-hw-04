@@ -153,7 +153,7 @@ img {
     background-color: #404BBF;
     
 }
-/* UTILITYS SECTION */
+/* 2 UTILITYS SECTION */
 .utilities {
     width: 1158px;
     padding: 120px 0;
@@ -209,11 +209,12 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
 }   
-/* TEAM MEMBERS SECTION  */
+/* 3 TEAM MEMBERS SECTION  */
 .team-section {
     width: 1158px;
     background-color: #F4F4FD;
     padding: 120px 0;
+    box-shadow:0px 20px 10px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .team-section-heading {
     font-size: 36px;
@@ -257,7 +258,23 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
 }
-/* PRODUCTS SECTION */
+.social-medias-box {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 24px;
+    justify-content: center;
+}
+.social-media-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+/* 4 PRODUCTS SECTION */
 .products{
     width: 1158px;
     padding-top: 120px; 
