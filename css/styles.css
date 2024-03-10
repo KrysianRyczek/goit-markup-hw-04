@@ -576,13 +576,18 @@ footer-subscribe {
 .modal-form-items {
     margin-bottom: 8px;
 }
-.modal-form-form-label {
-    display: flex;
-    flex-direction: column;
+.modal-form-label {
+    display: block;
     margin: 0 Auto;
-    color: rgba(46, 47, 66, 0.4);
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    margin-bottom: 4px;
+
 }
 .modal-form-input-row {
+    position: relative;
     display: flex;
     align-items: center;
     padding: 0 16px 0 16px;
