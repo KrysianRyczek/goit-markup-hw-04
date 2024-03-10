@@ -677,10 +677,7 @@ footer-subscribe {
      margin-bottom: 24px
 }
 .modal-policy-checkbox {
-      margin: 0;
-      visibility: hidden;
-      width: 1px;
-      height: 1px;
+    cursor: pointer;
 }
 .modal-policy-label {
      font-size: 12px;
@@ -697,6 +694,7 @@ footer-subscribe {
      height: 16px;
      border: 1px solid rgba(46, 47, 66, 0.4);
      border-radius: 2px;
+     cursor: pointer;
      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
                  border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
                  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
