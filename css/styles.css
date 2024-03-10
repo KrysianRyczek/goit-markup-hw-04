@@ -537,28 +537,35 @@ footer-subscribe {
                 visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close-button {
- padding: 0;
- position: absolute;
- top: 24px;
- right: 24px;
- width: 24px;
- height: 24px;
- background-color: #e7e9fc;
- border: 1px solid rgba(0, 0, 0, 0.1);
- border-radius: 50%;
- display: flex;
- align-items: center;
- justify-content: center;
- fill: black;
- cursor: pointer;
- transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-             border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 0;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+                border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+
 }
+.modal-close-button-icon {
+    fill: black;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} 
 .modal-close-button:hover,
-.modal-close-button:active {
+.modal-close-button:focus{
     background-color: #404bbf;
-    fill: #ffffff;
     border: none;
+}
+.modal-close-button:hover .modal-close-button-icon ,
+.modal-close-button:focus .modal-close-button-icon  {
+    fill: #ffffff;
 }
 .modal-paragrad {
     font-weight: 500;
@@ -584,7 +591,6 @@ footer-subscribe {
     letter-spacing: 0.04em;
     color: #8e8f99;
     margin-bottom: 4px;
-
 }
 .modal-form-input-row {
     position: relative;
