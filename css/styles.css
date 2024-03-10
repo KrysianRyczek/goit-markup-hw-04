@@ -624,10 +624,10 @@ footer-subscribe {
 .modal-form-input:focus-within {
     border-color: #4D5AE5;
 } 
-/* .modal-form-input:focus-within .modal-form-icon {
+.modal-form-input-row:focus-within .modal-form-icon {
     fill: #4D5AE5;
     border-color: #4D5AE5;
-}  */
+} 
 .modal-form-textarea {
     margin-bottom: 16px;
 }
