@@ -460,7 +460,10 @@ fill:#f4f4fd;
     fill: #f4f4fd;
 }
 
-.footer-subscribe {
+footer-subscribe {
+     display: flex;   
+}
+.footer-subscribe-paragraf {
      margin-bottom: 16px;
      font-weight: 500;
      font-size: 16px;
@@ -470,9 +473,11 @@ fill:#f4f4fd;
     }
 .subscribe-form {
      display: flex;
+     gap: 24px;
+     min-width: 264;
 }
 .subscribe-form-label {
-     display: flex; 
+     display: flex;
 }
 
 .subscribe-form-input {
